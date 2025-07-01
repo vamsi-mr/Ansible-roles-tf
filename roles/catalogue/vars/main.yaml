@@ -1,1 +1,1 @@
-MONGODB_HOST: "mongodb-dev.ravada.site"
+MONGODB_HOST: "mongodb-{{ env }}.ravada.site"

@@ -1,0 +1,5 @@
+CATALOGUE_HOST: catalogue.ravada.site
+USER_HOST: user.ravada.site
+CART_HOST: cart.ravada.site
+SHIPPING_HOST: shipping.ravada.site
+PAYMENT_HOST: payment.ravada.site

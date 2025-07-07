@@ -1,2 +1,2 @@
-REDIS_HOST: redis-dev.ravada.site
-MONGODB_HOST: mongodb-dev.ravada.site
+REDIS_HOST: redis-{{ env }}.ravada.site
+MONGODB_HOST: mongodb-{{ env }}.ravada.site

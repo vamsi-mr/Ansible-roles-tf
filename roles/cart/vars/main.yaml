@@ -1,2 +1,2 @@
 CATALOGUE_HOST: catalogue.backend-{{ env }}.ravada.site
-REDIS_HOST: redis-dev.ravada.site
+REDIS_HOST: redis-{{ env }}.ravada.site

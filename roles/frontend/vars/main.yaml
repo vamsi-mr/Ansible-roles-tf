@@ -1,5 +1,5 @@
 CATALOGUE_HOST: catalogue.backend-{{ env }}.ravada.site
-USER_HOST: user-dev.ravada.site
-CART_HOST: cart-dev.ravada.site
+USER_HOST: user.backend-{{ env }}.ravada.site
+CART_HOST: cart.backend-{{ env }}.ravada.site
 SHIPPING_HOST: shipping.backend-{{ env }}.ravada.site
 PAYMENT_HOST: payment.backend-{{ env }}.ravada.site

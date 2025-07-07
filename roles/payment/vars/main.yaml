@@ -1,5 +1,5 @@
 RABBITMQ_USER: roboshop
 RABBITMQ_ROOT_PASSWORD: "{{ lookup('amazon.aws.aws_ssm', '/roboshop/rabbitmq/rabbitmq_root_password', region='us-east-1', decrypt=True) }}"
-CART_HOST: cart-dev.ravada.site
-USER_HOST: user-dev.ravada.site
-RABBITMQ_HOST: rabbitmq-dev.ravada.site
+CART_HOST: cart.backend-{{ env }}.ravada.site
+USER_HOST: user.backend-{{ env }}.ravada.site
+RABBITMQ_HOST: rabbitmq-{{ env }}.ravada.site

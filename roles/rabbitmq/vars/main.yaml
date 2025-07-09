@@ -1,5 +1,3 @@
 RABBITMQ_USER: roboshop
 
 RABBITMQ_PASSWORD: "{{ lookup('amazon.aws.aws_ssm', '/roboshop/{{ env }}/rabbitmq/rabbitmq_root_password', region='us-east-1', decrypt=True) }}"
-
-#roboshop123

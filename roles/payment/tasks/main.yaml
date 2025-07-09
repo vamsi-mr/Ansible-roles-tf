@@ -8,6 +8,14 @@
     name: common
     tasks_from: python
 
+- name: install boto3 and botocore
+  ansible.builtin.pip:
+    name: "{{ item }}"
+    executable: pip3.9
+  loop:
+  - boto3
+  - botocore
+
 - name: systemd setup
   include_role:
     name: common    
